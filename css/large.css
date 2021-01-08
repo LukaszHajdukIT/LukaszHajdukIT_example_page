@@ -1,0 +1,13 @@
+header .fa-chevron-down {
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 30px;
+  color: #fff;
+  -webkit-animation: bounce 1.6s infinite;
+          animation: bounce 1.6s infinite;
+}
+/*# sourceMappingURL=large.css.map */
