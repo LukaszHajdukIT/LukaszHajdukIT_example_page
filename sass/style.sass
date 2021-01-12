@@ -1,3 +1,5 @@
+$blue-color: #039dff
+
 *, *::after, *::before
     box-sizing: border-box
     margin: 0
@@ -11,31 +13,55 @@ body
     background-color: #333333
 
 .blue-text
-    color: #039dff
+    color: $blue-color
+
+.wrapper
+    width: 80%
+    margin: 0 auto
+
+    h2
+        text-transform: uppercase
+        text-align: center
+
+.underline
+    margin: 0 auto 40px
+    width: 60px
+    height: 4px
+    background-color: $blue-color
+
+.scroll-fix::before // trick na navbar, żeby nie nachodził na sekcję
+    content: ''
+    display: block
+    height: 66px
+    margin-top: -66px
 
 // NAVIGATION
 nav
     text-transform: uppercase
+    transition: background-color .6s
 
     a, i
         color: #ffffff
         transition: color .3s
 
     a:hover
-        color: #039dff
+        color: $blue-color
 
     i
         padding: 10px
 
     .navbar-brand
         font-weight: bold
-    
-    .active
-        color: #039dff
 
+    .active
+        color: $blue-color
+
+.shadow-bg
+    background-color: rgba(0, 0, 0, .8)
 // HEADER
 header
     color: #ffffff
+    overflow: hidden
 
     h1
         padding: 10px
@@ -69,13 +95,13 @@ header
         p
             padding: 10px
             font-size: 14px
-    
+
     .btn-outline-light
         text-transform: uppercase
-    
+
     .fa-chevron-down
-       display: none
-                
+        display: none
+
 @media ( min-width: 375px )
     header
         h1
@@ -83,4 +109,25 @@ header
         .hero-text
             p
                 font-size: 16px
-    
+
+@media ( max-width: 350px )
+    nav
+        .navbar-brand
+            font-size: 16px
+
+// MAIN 
+#aboutus
+    i
+        margin-top: 20px
+        font-size: 30px
+    h3
+        font-size: 18px
+        text-transform: uppercase
+        font-weight: bold
+
+    .aboutus-hover
+        transition: color .3s
+        visibility: hidden
+
+    .aboutus-hover:hover
+        color: $blue-color
