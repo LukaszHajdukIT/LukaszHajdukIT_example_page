@@ -42,6 +42,14 @@ body {
   margin-top: -66px;
 }
 
+.visibility {
+  visibility: hidden;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+}
+
 nav {
   text-transform: uppercase;
   -webkit-transition: background-color .6s;
@@ -134,24 +142,13 @@ header .fa-chevron-down {
   display: none;
 }
 
-@media (min-width: 375px) {
-  header h1 {
-    font-size: 36px;
-  }
-  header .hero-text p {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 350px) {
-  nav .navbar-brand {
-    font-size: 16px;
-  }
-}
-
 #aboutus i {
   margin-top: 20px;
   font-size: 30px;
+}
+
+#aboutus h2 {
+  font-size: 26px;
 }
 
 #aboutus h3 {
@@ -163,10 +160,84 @@ header .fa-chevron-down {
 #aboutus .aboutus-hover {
   -webkit-transition: color .3s;
   transition: color .3s;
-  visibility: hidden;
 }
 
 #aboutus .aboutus-hover:hover {
   color: #039dff;
+}
+
+#aboutus-hero {
+  color: #ddd;
+  overflow: hidden;
+}
+
+#aboutus-hero .jumbotron {
+  position: relative;
+  padding: 60px 0;
+  background-image: url("../img/hero-aboutus.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+#aboutus-hero .jumbotron h2 {
+  font-size: 26px;
+}
+
+#aboutus-hero .jumbotron i {
+  font-size: 30px;
+}
+
+#aboutus-hero .jumbotron h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#aboutus-hero .jumbotron p {
+  font-size: 14px;
+}
+
+#aboutus-hero .aboutus-shadow {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -10;
+}
+
+#aboutus-hero .about-hero-item {
+  margin: 10px 0;
+}
+
+@media (min-width: 375px) {
+  header h1 {
+    font-size: 36px;
+  }
+  header .hero-text p {
+    font-size: 16px;
+  }
+  #aboutus-hero .jumbotron h2 {
+    font-size: 30px;
+  }
+  #aboutus-hero .jumbotron h3 {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  #aboutus-hero .jumbotron p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 350px) {
+  nav .navbar-brand {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 414px) {
+  #aboutus-hero .jumbotron {
+    padding: 80px 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
