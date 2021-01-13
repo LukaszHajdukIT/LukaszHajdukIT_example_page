@@ -16,6 +16,7 @@ body
     color: $blue-color
 
 .wrapper
+    max-width: 2560px
     width: 80%
     margin: 0 auto
 
@@ -164,7 +165,38 @@ header
     .about-hero-item
         margin: 10px 0
 
-        
+// PORTFOLIO
+#portfolio
+    // .jumbotron
+    //     position: relative
+    //     background-color: #fff
+    //     height: 75vh
+
+    h2
+        font-size: 26px
+        text-transform: uppercase
+        text-align: center
+
+    .carousel-item
+        position: relative
+        height: 600px
+
+        img
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+
+    .carousel-caption
+        position: absolute
+        background-color: rgba(0, 0, 0, .7)
+        left: 0
+        right: 0
+        padding: 40px 0
+        width: 100%
+
+    .carousel-indicators
+        bottom: 20px
 
 @media ( min-width: 375px )
     header
@@ -195,4 +227,5 @@ header
     #aboutus-hero
         .jumbotron
             padding: 80px 0
+
 

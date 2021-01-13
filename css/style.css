@@ -19,6 +19,7 @@ body {
 }
 
 .wrapper {
+  max-width: 2560px;
   width: 80%;
   margin: 0 auto;
 }
@@ -208,6 +209,38 @@ header .fa-chevron-down {
 
 #aboutus-hero .about-hero-item {
   margin: 10px 0;
+}
+
+#portfolio h2 {
+  font-size: 26px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#portfolio .carousel-item {
+  position: relative;
+  height: 600px;
+}
+
+#portfolio .carousel-item img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#portfolio .carousel-caption {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  left: 0;
+  right: 0;
+  padding: 40px 0;
+  width: 100%;
+}
+
+#portfolio .carousel-indicators {
+  bottom: 20px;
 }
 
 @media (min-width: 375px) {
