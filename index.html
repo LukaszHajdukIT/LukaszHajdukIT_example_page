@@ -1,190 +1,268 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Strona WWW 2</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strona WWW 2</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 
-    <link rel="stylesheet" href="./css/animate.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" media='screen and (min-width: 576px)' href="./css/small.css">
-    <link rel="stylesheet" media='screen and (min-width: 768px)' href="./css/medium.css">
-    <link rel="stylesheet" media='screen and (min-width: 992px)' href="./css/large.css">
-    <script src="https://kit.fontawesome.com/8f9d1901ea.js"></script>
+  <link rel="stylesheet" href="./css/animate.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" media='screen and (min-width: 576px)' href="./css/small.css">
+  <link rel="stylesheet" media='screen and (min-width: 768px)' href="./css/medium.css">
+  <link rel="stylesheet" media='screen and (min-width: 992px)' href="./css/large.css">
+  <script src="https://kit.fontawesome.com/8f9d1901ea.js"></script>
 </head>
+
 <body data-spy="scroll" data-target="#navbar">
-    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
-          <a class="navbar-brand" href="#"><i class="fas fa-laptop-code"></i><span class="blue-text">pro</span>grammers</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-              <a class="nav-item nav-link active" href="#home">Home</a>
-              <a class="nav-item nav-link" href="#aboutus">o nas</a>
-              <a class="nav-item nav-link" href="#portfolio">portfolio</a>
-              <a class="nav-item nav-link" href="#prices">prices</a>
-              <a class="nav-item nav-link" href="#team">zaspół</a>
-              <a class="nav-item nav-link" href="#achievements">osiągnięcia</a>
-              <a class="nav-item nav-link" href="#contact">kontakt</a>
+  <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+    <a class="navbar-brand" href="#"><i class="fas fa-laptop-code"></i><span class="blue-text">pro</span>grammers</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link active" href="#home">Home</a>
+        <a class="nav-item nav-link" href="#aboutus">o nas</a>
+        <a class="nav-item nav-link" href="#portfolio">portfolio</a>
+        <a class="nav-item nav-link" href="#prices">prices</a>
+        <a class="nav-item nav-link" href="#team">zespół</a>
+        <a class="nav-item nav-link" href="#achievements">osiągnięcia</a>
+        <a class="nav-item nav-link" href="#contact">kontakt</a>
 
-          </div>
-        </div>
-      </nav>
+      </div>
+    </div>
+  </nav>
 
-      <header id="home">
-        <div class="hero-img">
-          <div class="hero-shadow"></div>
-          <div class="hero-text">
-            <h1 class="os-animation" data-animation='zoomIn' data-delay='.2s'>Witajcie w <span class="blue-text">pro</span>grammers</h1>
-            <p class="os-animation" data-animation='zoomIn' data-delay='.5s'>W miejscu, gdzie tworzymy z pasją</p>
-            <a  class="btn btn-outline-light os-animation" data-animation='zoomIn' data-delay='.8s' href="#aboutus">poznaj nas!</a>
-          </div>
-          <a href="#aboutus"><i class="fas fa-chevron-down"></i></a>
-        </div>
+  <header id="home">
+    <div class="hero-img">
+      <div class="hero-shadow"></div>
+      <div class="hero-text">
+        <h1 class="os-animation" data-animation='zoomIn' data-delay='.2s'>Witajcie w <span
+            class="blue-text">pro</span>grammers</h1>
+        <p class="os-animation" data-animation='zoomIn' data-delay='.5s'>W miejscu, gdzie tworzymy z pasją</p>
+        <a class="btn btn-outline-light os-animation" data-animation='zoomIn' data-delay='.8s' href="#aboutus">poznaj
+          nas!</a>
+      </div>
+      <a href="#aboutus"><i class="fas fa-chevron-down"></i></a>
+    </div>
 
-      </header>
+  </header>
 
-      <main>
-        <section id="aboutus" class="scroll-fix">
-          <div class="jumbotron jumbotron-fluid">
-            <div class="wrapper">
-              <h2>o nas</h2>
-              <div class="underline"></div>
+  <main>
+    <section id="aboutus" class="scroll-fix">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="wrapper">
+          <h2>o nas</h2>
+          <div class="underline"></div>
 
-              <div class="row">             
+          <div class="row">
 
-                <div class="col-sm-6 col-md-4 text-center aboutus-hover os-animation visibility" data-animation='bounceIn' data-delay='.1s'>
-                  <p><i class="fas fa-mobile-alt"></i></p>
-                  <h3>mobile programming</h3>
-                  <p>Piszemy strony i aplikacje na urządzenia mobilne!</p>
-                </div>
-                <div class="col-sm-6 col-md-4 text-center aboutus-hover os-animation visibility" data-animation='bounceIn' data-delay='.2s'>
-                  <p><i class="fas fa-desktop"></i></p>
-                  <h3>desktop programming</h3>
-                  <p>Piszemy strony i aplikacje na PC!</p>
-                </div>
-                <div class="col-sm-6 col-md-4 text-center aboutus-hover os-animation visibility" data-animation='bounceIn' data-delay='.3s'>
-                  <p><i class="fas fa-file-code"></i></p>
-                  <h3>najwyższe standardy</h3>
-                  <p>Zachowujemy najwyższe standardy podczas pisania kodu!</p>
-                </div>
-                <div class="col-sm-6 col-md-4 text-center aboutus-hover os-animation visibility" data-animation='bounceIn' data-delay='.4s'>
-                  <p><i class="fas fa-bug"></i></p>
-                  <h3>Dbałość o kod</h3>
-                  <p>Dbamy o jakość kodu!</p>
-                </div>
-                <div class="col-sm-6 col-md-4 text-center aboutus-hover os-animation visibility" data-animation='bounceIn' data-delay='.5s'>
-                  <p><i class="fas fa-users"></i></p>
-                  <h3>świetny zespół</h3>
-                  <p>Jesteśmy zgranym i doświadcznym zespołem!</p>
-                </div>
-                <div class="col-sm-6 col-md-4 text-center aboutus-hover os-animation visibility" data-animation='bounceIn' data-delay='.6s'>
-                  <p><i class="fas fa-glass-cheers"></i></p>
-                  <h3>świetne relacje</h3>
-                  <p>Dbamy o świetne relacje z naszymi klientami!</p>
-                </div>
-              </div> 
+            <div class="col-sm-6 col-md-4 text-center aboutus-hover os-animation visibility" data-animation='bounceIn'
+              data-delay='.1s'>
+              <p><i class="fas fa-mobile-alt"></i></p>
+              <h3>mobile programming</h3>
+              <p>Piszemy strony i aplikacje na urządzenia mobilne!</p>
+            </div>
+            <div class="col-sm-6 col-md-4 text-center aboutus-hover os-animation visibility" data-animation='bounceIn'
+              data-delay='.2s'>
+              <p><i class="fas fa-desktop"></i></p>
+              <h3>desktop programming</h3>
+              <p>Piszemy strony i aplikacje na PC!</p>
+            </div>
+            <div class="col-sm-6 col-md-4 text-center aboutus-hover os-animation visibility" data-animation='bounceIn'
+              data-delay='.3s'>
+              <p><i class="fas fa-file-code"></i></p>
+              <h3>najwyższe standardy</h3>
+              <p>Zachowujemy najwyższe standardy podczas pisania kodu!</p>
+            </div>
+            <div class="col-sm-6 col-md-4 text-center aboutus-hover os-animation visibility" data-animation='bounceIn'
+              data-delay='.4s'>
+              <p><i class="fas fa-bug"></i></p>
+              <h3>Dbałość o kod</h3>
+              <p>Dbamy o jakość kodu!</p>
+            </div>
+            <div class="col-sm-6 col-md-4 text-center aboutus-hover os-animation visibility" data-animation='bounceIn'
+              data-delay='.5s'>
+              <p><i class="fas fa-users"></i></p>
+              <h3>świetny zespół</h3>
+              <p>Jesteśmy zgranym i doświadcznym zespołem!</p>
+            </div>
+            <div class="col-sm-6 col-md-4 text-center aboutus-hover os-animation visibility" data-animation='bounceIn'
+              data-delay='.6s'>
+              <p><i class="fas fa-glass-cheers"></i></p>
+              <h3>świetne relacje</h3>
+              <p>Dbamy o świetne relacje z naszymi klientami!</p>
             </div>
           </div>
-        </section>
+        </div>
+      </div>
+    </section>
 
-        <section id="aboutus-hero">
-          <div class="jumbotron jumbotron-fluid">
-              <div class="aboutus-shadow"></div>
-              <div class="wrapper">
-                <h2 class="os-animation visibility" data-animation='fadeIn'>tworzymy w najnowszej technologii</h2>
-                <div class="underline os-animation visibility" data-animation='fadeIn' data-delay='.1s'></div>
-                <div class="row">
-                  <div class="col-md-4 text-center about-hero-item os-animation visibility" data-animation='bounceInUp' data-delay='.2s'>
-                    <p><i class="fab fa-html5"></i></p>
-                    <h3>HTML5</h3>
-                    <p>Zgodne semantycznie</p>
-                  </div>
-                  <div class="col-md-4 text-center about-hero-item os-animation visibility" data-animation='bounceInUp' data-delay='.3s'>
-                    <p><i class="fab fa-css3-alt"></i></p>
-                    <h3>CSS3</h3>
-                    <p>Świetnie wyglądające</p>
-                  </div>
-                  <div class="col-md-4 text-center about-hero-item os-animation visibility" data-animation='bounceInUp' data-delay='.4s'>
-                    <p><i class="fab fa-js-square"></i></p>
-                    <h3>JavaScript</h3>
-                    <p>Dynamiczne</p>
-                  </div>
-                </div>
-              </div>
+    <section id="aboutus-hero">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="aboutus-shadow"></div>
+        <div class="wrapper">
+          <h2 class="os-animation visibility" data-animation='fadeIn'>tworzymy w najnowszej technologii</h2>
+          <div class="underline os-animation visibility" data-animation='fadeIn' data-delay='.1s'></div>
+          <div class="row">
+            <div class="col-md-4 text-center about-hero-item os-animation visibility" data-animation='bounceInUp'
+              data-delay='.2s'>
+              <p><i class="fab fa-html5"></i></p>
+              <h3>HTML5</h3>
+              <p>Zgodne semantycznie</p>
+            </div>
+            <div class="col-md-4 text-center about-hero-item os-animation visibility" data-animation='bounceInUp'
+              data-delay='.3s'>
+              <p><i class="fab fa-css3-alt"></i></p>
+              <h3>CSS3</h3>
+              <p>Świetnie wyglądające</p>
+            </div>
+            <div class="col-md-4 text-center about-hero-item os-animation visibility" data-animation='bounceInUp'
+              data-delay='.4s'>
+              <p><i class="fab fa-js-square"></i></p>
+              <h3>JavaScript</h3>
+              <p>Dynamiczne</p>
+            </div>
           </div>
-        </section>
+        </div>
+      </div>
+    </section>
 
-        <section id="portfolio" class="scroll-fix">
-          <div class="jumbotron jumbotron-fluid">
-            <h2>portfolio</h2>
-            <div class="underline"></div>
-            
-            <!-- PORTFOLIO NA MOBILE -->
-          <div class="wrapper">
-            <div class="card-deck d-lg-none">
-              <div class="card">
-                <img src="./img/portfolio-mobile1.jpg" class="card-img-top" alt="code on laptop screen">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <section id="portfolio" class="scroll-fix">
+      <div class="jumbotron jumbotron-fluid">
+        <h2 class="os-animation visibility" data-animation="zoomIn" data-delay=".1s">portfolio</h2>
+        <div class="underline os-animation visibility" data-animation="zoomIn" data-delay=".2s"></div>
+
+        <!-- PORTFOLIO NA MOBILE -->
+        <div class="wrapper">
+          <div class="card-deck d-lg-none">
+            <div class="card os-animation visibility" data-animation="zoomIn" data-delay=".1s"">
+                <img src=" ./img/portfolio-mobile1.jpg" class="card-img-top" alt="code on laptop screen">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+            </div>
+            <div class="card os-animation visibility" data-animation="zoomIn" data-delay=".1s">
+              <img src="./img/portfolio-mobile2.jpg" class="card-img-top" alt="computer on desk">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- PORTFOLIO NA DEKSTOPY -->
+
+          <div id="carouselExampleCaptions" class="carousel slide d-none d-lg-block os-animation visibility"
+            data-animation="zoomIn" data-delay=".1s"" data-ride=" carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/portfolio-slide1.jpg" class="d-block w-100" alt="code on laptop screen">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </div>
               </div>
-              <div class="card">
-                <img src="./img/portfolio-mobile2.jpg" class="card-img-top" alt="computer on desk">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <div class="carousel-item">
+                <img src="./img/portfolio-slide2.jpg" class="d-block w-100" alt="laptop on desk">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
               </div>
             </div>
-
-            <!-- PORTFOLIO NA DEKSTOPY -->
-
-              <div id="carouselExampleCaptions" class="carousel slide d-none d-lg-block" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./img/portfolio-slide1.jpg" class="d-block w-100" alt="code on laptop screen">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>First slide label</h5>
-                      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./img/portfolio-slide2.jpg" class="d-block w-100" alt="laptop on desk">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Second slide label</h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden"></span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden"></span>
-                </a>
-              </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden"></span>
+            </a>
           </div>
         </div>
-        </section>
-      </main>
+      </div>
+    </section>
+  </main>
 
-      <div style="height: 100vh;"></div>
+  <section id="prices" class="scroll-fix">
+    <div class="jumbotron jumbotron-fluid">
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-<script src="./js/animation.js"></script>
-<script src="./js/jquery.waypoints.min"></script>
-<script src="./js/main.js"></script>
+      <h2 class="os-animation visibility" data-animation="fadeIn">CENY</h2>
+      <div class="underline os-animation visibility" data-animation="fadeIn" data-delay=".1s"></div>
+
+      <div class="prices-wrapper row text-center justify-content-center os-animation visibility" data-animation="fadeIn"
+        data-delay=".4s">
+        <div class="col-md-6 col-xl-4">
+          <div class="prices-box">
+            <h3>basic</h3>
+            <hr>
+            <p><span>Urządzenia: </span><i class="fas fa-desktop"></i></p>
+            <p><span>Wygląd:</span> Prosty</p>
+            <p><span>User Experience: </span>Niskie</p>
+            <p class="price">999zł</p>
+            <button class="btn btn-secondary">zamawiam</button>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-xl-4">
+          <div class="prices-box">
+            <h3>premium</h3>
+            <hr>
+            <p><span>Urządzenia: </span><i class="fas fa-desktop"></i><i class="fas fa-mobile-alt"></i></p>
+            <p><span>Wygląd: </span>Normalny</p>
+            <p><span>User Experience: </span>Średnie</p>
+            <p class="price">2499zł</p>
+            <button class="btn btn-primary">zamawiam</button>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-xl-4">
+          <div class="prices-box">
+            <h3>exclusive</h3>
+            <hr>
+            <p><span>Urządzenia: </span><i class="fas fa-desktop"></i><i class="fas fa-mobile-alt"></i></p>
+            <p><span>Wygląd: </span>Profesjonalny</p>
+            <p><span>User Experience: </span>Wysokie</p>
+            <p class="price">4999zł</p>
+            <button class="btn btn-secondary">zamawiam</button>
+          </div>
+        </div>
+      </div>
+      <div class="prices-text wrapper text-center">
+        <p class="prices-info">Skorzystaj z jednego z trzech głównych pakietów, lub
+          <a href="#contact">skontaktuj się</a> z nami i ustal warunki indywidualne!</p>
+        <p class="text-muted">Pakiet <strong>EXCLUSIVE</strong> sprosta najwyższym wymaganiom.</p>
+      </div>
+    </div>
+  </section>
+
+  <div style="height: 100vh;"></div>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+  </script>
+  <script src="./js/animation.js"></script>
+  <script src="./js/jquery.waypoints.min"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script src="./js/main.js"></script>
 </body>
+
 </html>

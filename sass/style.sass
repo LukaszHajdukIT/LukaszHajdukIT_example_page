@@ -167,11 +167,6 @@ header
 
 // PORTFOLIO
 #portfolio
-    // .jumbotron
-    //     position: relative
-    //     background-color: #fff
-    //     height: 75vh
-
     h2
         font-size: 26px
         text-transform: uppercase
@@ -217,6 +212,62 @@ header
 
             p
                 font-size: 18px
+
+// PRICES
+#prices
+    .jumbotron
+        background: #f9f9f9
+        h2
+            text-align: center
+            text-transform: uppercase
+        
+        .prices-wrapper
+            max-width: 2560px
+            width: 95%
+            margin: 0 auto
+        
+        .prices-box
+            background-color: #fff
+            margin: 20px
+            padding: 20px
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, .6)
+            transition: transform .3s
+
+            h3
+                color: $blue-color
+                text-transform: uppercase
+
+            span
+                font-weight: bold
+
+            i
+                padding: 0 5px
+                font-size: 20px
+
+            button
+                padding: 10px 20px
+                text-transform: uppercase
+
+            .price
+                font-size: 30px
+                font-weight: bold
+
+        .prices-box:hover
+            transform: scale(1.05)
+        
+        .prices-text
+            margin-top: 30px
+
+
+        
+
+        
+        
+
+
+
+
+
 
 @media ( max-width: 350px )
     nav

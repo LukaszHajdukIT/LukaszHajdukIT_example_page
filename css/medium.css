@@ -5,4 +5,13 @@ header h1 {
 header .hero-text p {
   font-size: 20px;
 }
+
+#prices .price-info {
+  font-size: 23px;
+}
+
+#prices .prices-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=medium.css.map */

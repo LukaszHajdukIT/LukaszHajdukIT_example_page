@@ -262,6 +262,66 @@ header .fa-chevron-down {
   }
 }
 
+#prices .jumbotron {
+  background: #f9f9f9;
+}
+
+#prices .jumbotron h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#prices .jumbotron .prices-wrapper {
+  max-width: 2560px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+#prices .jumbotron .prices-box {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+#prices .jumbotron .prices-box h3 {
+  color: #039dff;
+  text-transform: uppercase;
+}
+
+#prices .jumbotron .prices-box span {
+  font-weight: bold;
+}
+
+#prices .jumbotron .prices-box i {
+  padding: 0 5px;
+  font-size: 20px;
+}
+
+#prices .jumbotron .prices-box button {
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+#prices .jumbotron .prices-box .price {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#prices .jumbotron .prices-box:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#prices .jumbotron .prices-text {
+  margin-top: 30px;
+}
+
 @media (max-width: 350px) {
   nav .navbar-brand {
     font-size: 16px;
