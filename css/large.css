@@ -28,6 +28,12 @@ header .fa-chevron-down {
   #aboutus-hero .jumbotron {
     padding: 120px 0;
   }
+  #team .jumbotron .card-text {
+    font-size: 16px;
+  }
+  #team .jumbotron .card-body {
+    height: 125px;
+  }
 }
 
 @media (min-width: 2000px) {
@@ -36,6 +42,12 @@ header .fa-chevron-down {
   }
   #prices .prices-wrapper {
     width: 70%;
+  }
+  .jumbotron .card-text {
+    font-size: 18px;
+  }
+  .jumbotron .card-body {
+    height: 125px;
   }
 }
 /*# sourceMappingURL=large.css.map */

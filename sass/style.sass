@@ -20,9 +20,9 @@ body
     width: 80%
     margin: 0 auto
 
-    h2
-        text-transform: uppercase
-        text-align: center
+h2
+    text-transform: uppercase
+    text-align: center
 
 .underline
     margin: 0 auto 40px
@@ -114,9 +114,6 @@ header
     i
         margin-top: 20px
         font-size: 30px
-
-    h2
-        font-size: 26px
         
     h3
         font-size: 18px
@@ -140,9 +137,6 @@ header
         background-position: center
         background-size: cover
         z-index: 0
-            
-        h2
-            font-size: 26px
 
         i
             font-size: 30px
@@ -167,10 +161,6 @@ header
 
 // PORTFOLIO
 #portfolio
-    h2
-        font-size: 26px
-        text-transform: uppercase
-        text-align: center
 
     .carousel-item
         position: relative
@@ -203,8 +193,6 @@ header
 
     #aboutus-hero
         .jumbotron
-            h2
-                font-size: 30px
                 
             h3
                 font-size: 26px
@@ -217,9 +205,6 @@ header
 #prices
     .jumbotron
         background: #f9f9f9
-        h2
-            text-align: center
-            text-transform: uppercase
         
         .prices-wrapper
             max-width: 2560px
@@ -258,16 +243,77 @@ header
         .prices-text
             margin-top: 30px
 
-
+    // TEAM
+#team
+    .jumbotron
+        position: relative
+        // padding: 20px 20px
+        background-image: url('../img/hero-team.jpg')
+        background-attachment: fixed
+        background-size: cover
+        z-index: 0
         
+        h2
+            color: #fff
 
+        .team-shadow
+            position: absolute
+            top: 0
+            width: 100%
+            height: 100%
+            background-color: rgba(0, 0, 0, 0.8)
+            z-index: -10
+
+        .card
+            transition: transform .3s
+
+            img
+                height: 300px
+                object-fit: cover
+
+            i
+                padding: 10px 20px
+
+            .row
+                margin-left: 0
+                margin-right: 0
+
+        .card:hover
+            transform: scale(0.95)
+
+        .card-body
+            height: 125px
+
+        .card-title
+            text-align: center
+            text-transform: uppercase
+            font-weight: bold
         
+        .card-text
+            font-size: 14px
+
+// ACHIEVEMENTS
+#achievements
+    .achievement-list
+        padding: 20px 0
         
+    .achievement
+        text-align: center
 
+    i
+        padding: 10px
+        font-size: 48px
+        color: #ffffff
+        text-shadow: 0 0 5px black
+    
+    .achievement-number
+        font-size: 22px
 
+    .achievement-text
+        font-size: 13px
+        text-transform: uppercase
 
-
-
+    
 
 @media ( max-width: 350px )
     nav
@@ -278,5 +324,4 @@ header
     #aboutus-hero
         .jumbotron
             padding: 80px 0
-
 

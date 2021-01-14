@@ -24,7 +24,7 @@ body {
   margin: 0 auto;
 }
 
-.wrapper h2 {
+h2 {
   text-transform: uppercase;
   text-align: center;
 }
@@ -148,10 +148,6 @@ header .fa-chevron-down {
   font-size: 30px;
 }
 
-#aboutus h2 {
-  font-size: 26px;
-}
-
 #aboutus h3 {
   font-size: 18px;
   text-transform: uppercase;
@@ -181,10 +177,6 @@ header .fa-chevron-down {
   z-index: 0;
 }
 
-#aboutus-hero .jumbotron h2 {
-  font-size: 26px;
-}
-
 #aboutus-hero .jumbotron i {
   font-size: 30px;
 }
@@ -209,12 +201,6 @@ header .fa-chevron-down {
 
 #aboutus-hero .about-hero-item {
   margin: 10px 0;
-}
-
-#portfolio h2 {
-  font-size: 26px;
-  text-transform: uppercase;
-  text-align: center;
 }
 
 #portfolio .carousel-item {
@@ -250,9 +236,6 @@ header .fa-chevron-down {
   header .hero-text p {
     font-size: 16px;
   }
-  #aboutus-hero .jumbotron h2 {
-    font-size: 30px;
-  }
   #aboutus-hero .jumbotron h3 {
     font-size: 26px;
     font-weight: bold;
@@ -264,11 +247,6 @@ header .fa-chevron-down {
 
 #prices .jumbotron {
   background: #f9f9f9;
-}
-
-#prices .jumbotron h2 {
-  text-align: center;
-  text-transform: uppercase;
 }
 
 #prices .jumbotron .prices-wrapper {
@@ -320,6 +298,92 @@ header .fa-chevron-down {
 
 #prices .jumbotron .prices-text {
   margin-top: 30px;
+}
+
+#team .jumbotron {
+  position: relative;
+  background-image: url("../img/hero-team.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: 0;
+}
+
+#team .jumbotron h2 {
+  color: #fff;
+}
+
+#team .jumbotron .team-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -10;
+}
+
+#team .jumbotron .card {
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+#team .jumbotron .card img {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#team .jumbotron .card i {
+  padding: 10px 20px;
+}
+
+#team .jumbotron .card .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#team .jumbotron .card:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+#team .jumbotron .card-body {
+  height: 125px;
+}
+
+#team .jumbotron .card-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#team .jumbotron .card-text {
+  font-size: 14px;
+}
+
+#achievements .achievement-list {
+  padding: 20px 0;
+}
+
+#achievements .achievement {
+  text-align: center;
+}
+
+#achievements i {
+  padding: 10px;
+  font-size: 48px;
+  color: #ffffff;
+  text-shadow: 0 0 5px black;
+}
+
+#achievements .achievement-number {
+  font-size: 22px;
+}
+
+#achievements .achievement-text {
+  font-size: 13px;
+  text-transform: uppercase;
 }
 
 @media (max-width: 350px) {
